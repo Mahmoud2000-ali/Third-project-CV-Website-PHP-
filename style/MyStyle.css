@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+li,a{
+    font-family:Comic Sans MS;
+    font-weight:500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration:none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    background-color: #24bdf7;
+}
+.logo{
+    cursor: pointer;
+    height: 45px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    color: black;
+}
+.nav_links li a:hover{
+    color: white;
+}
+.font_h1{
+    font-family: Trebuchet MS ;
+    font-weight: bold;
+    padding: 10px 0px 0px 40px;
+}
+.informationHome{
+    padding: 30px 0px 0px 40px;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.Par{
+    display: contents;
+    font-family: cursive;
+    font-size:25px;
+    width: 190;
+    margin-top: 40px;
+}
+
+.classLabel{
+    font-size: 20px;
+    display: inline-block;
+    width: 190px;
+    margin-top: 40px;
+}
+
+.imagDiv{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.imagBorderH{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin:10% 18%;
+    border-radius: 10px;
+
+}
+.imgImg{
+    width: 398px;
+    height: 398px;
+}
+.informationAddC{
+    padding: 30px 0px 0px 40px;
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+.attachment input{
+    width: 90px;
+}
+.informationAddC input{
+    width: 190;
+    margin-top: 40px;
+    border-radius: 8px;
+    height: 25px;
+}
+
+
+.informationAddC label{
+    display: inline-block;
+    width: 120px;
+    margin-top: 40px;
+}
+
+.imagDiv{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.imagBorderAddC{
+    border: 1px solid black;
+    width: 440px;
+    height: 712px;
+    margin:10% 18%;
+
+}
+.p2{
+    width: 440px;
+    height: 712px;
+}
+.TextareaAddC{
+    margin-top: 40px;
+    display: inline-table;
+    border-radius: 8px;
+}
+.btnSave{
+    width: 192px;
+    margin: 8% 11% 10% 11%;
+    height: 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #198754;
+    color: white;
+}
+.btnReset{
+    width: 192px;
+    margin: 8% 11% 10% 5%;
+    height: 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dc3545;
+    color: white; 
+}
+.informationAddE{
+    padding: 30px 0px 0px 40px;
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+.attachment input{
+    width: 90px;
+}
+.informationAddE input {
+    width: 190;
+    margin-top: 40px;
+    border-radius: 8px;
+    height: 25px;
+}
+.informationAddE select{
+    width: 190;
+    margin-top: 40px;
+    border-radius: 8px;
+    height: 25px;
+}
+
+.informationAddE label{
+    display: inline-block;
+    width: 165px;
+    margin-top: 40px;
+}
+
+.imagDiv{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.imagBorderAddE{
+    border: 1px solid black;
+    width: 440px;
+    height: 520px;
+    margin:10% 18%;
+
+}
+.p3{
+    width: 440px;
+    height: 520px;
+}
+.TextareaAddE{
+    margin-top: 40px;
+    display: inline-table;
+    border-radius: 8px;
+}
+.font_h1_ViewE{
+    font-family: Trebuchet MS ;
+    font-weight: bold;
+    padding: 10px 0px 0px 40px;
+}
+.informationViewE{
+    padding: 30px 0px 0px 40px;
+}
+
+.pInformation{
+    font-size: 30px;
+    font-weight:bold;
+}
+.subInformation{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+.PDATE{
+    margin-top: 35px;
+    font-weight: 600;
+}
+.font_h1_viewC{
+    font-family: Trebuchet MS ;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+}
+.containerViewC {
+    width: 95%;
+    margin: 30px auto;
+}
+
+.t2{
+    background-color:#E5E5E5;
+}
+.t3{
+    background-color:#FFFFFF;
+}
+
+.t1{
+    background-color: #606060;
+    font-size: 17px;
+}
+table{
+    width: 100%;
+    height: 300px;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+table, th ,td{
+    border: 1px solid black;
+    font-family: Tahoma;
+}
+td{
+    text-align: center;
+}
+.font_h1_viewCV{
+    font-family: Trebuchet MS ;
+    font-weight: bold;
+    padding: 25px 0px 0px 40px;
+}
+.informationViewCV{
+    padding: 30px 0px 0px 40px;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.informationViewCV p{
+    display: contents;
+    font-family: cursive;
+    font-size:25px;
+    width: 190;
+    margin-top: 40px;
+}
+
+.informationViewCV label{
+    font-size: 20px;
+    display: inline-block;
+    width: 190px;
+    margin-top: 40px;
+}
+.PDateCV{
+    width: 700px;
+}
+.divPic{
+    margin: 30px;
+}
+.pic{
+    width: 200%;
+    padding: 30px;
+}
+
+
+
